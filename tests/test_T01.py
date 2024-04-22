@@ -2,7 +2,7 @@ import re
 from playwright.sync_api import Page, expect
 
 
-def test_example(page: Page) -> None:
+def test_T01(page: Page) -> None:
     page.goto("http://127.0.0.1:8000/register/")
     page.locator("#id_name").click()
     page.locator("#id_name").fill("vanshikas2018@gmail.com")
