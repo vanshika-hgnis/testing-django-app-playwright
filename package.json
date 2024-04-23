@@ -1,0 +1,21 @@
+{
+  "name": "studybud",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r <img width=\"30%\" src=\"https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG\">",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "jest-image-snapshot": "^6.4.0"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.9.0"
+  }
+}
