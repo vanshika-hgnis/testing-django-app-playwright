@@ -1,7 +1,7 @@
 import { expect, Page, test } from '@playwright/test';
 
 test('Validate navigation links', async ({ page }) => {
-    await page.goto('https://your-website.com'); // Replace with your target website
+    await page.goto('http://127.0.0.1:8000/'); // Replace with your target website
 
     // Get all navigation links 
     const navLinks = page.locator('nav a');
